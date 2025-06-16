@@ -1,11 +1,12 @@
-import Navbar from './components/Navbar'
-import Hero from './sections/Hero'
+import Hero from "./components/Hero";
+import WhyUs from "./components/WhyUs";
+
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <Hero />
+      <WhyUs />
     </main>
   );
 }
